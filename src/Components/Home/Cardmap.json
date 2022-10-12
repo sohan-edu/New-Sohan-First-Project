@@ -1,0 +1,28 @@
+{
+    "Cardmap": [
+        {
+            "card_id": "1",
+            "card_img": "../../../../Images/Gurshaan-Singh.webp",
+            "card_title": "Gurshaan Singh",
+            "card_logo": "../../../../Images/google.webp"
+        },
+        {
+            "Card_id": "2",
+            "card_img": "../../../../Images/Vikas-Ranjan.webp",
+            "card_title": "Vikas Ranjan",
+            "card_logo": "../../../../Images/zomato.webp"
+        },
+        {
+            "card_id": "3",
+            "card_img": "../../../../Images/Rajat-Jain.webp",
+            "card_title": "Rajat Jain",
+            "card_logo": "../../../../Images/microsoft.webp"
+        },
+        {
+            "card_id": "4",
+            "card_img": "../../../../Images/jayaram.webp",
+            "card_title": "Jayaram",
+            "card_logo": "../../../../Images/PayPal.webp"
+        }
+    ]
+}

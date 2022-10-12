@@ -1,0 +1,50 @@
+.s50{
+    margin-top: 100px;
+}
+.btpop{
+    height: 30px;
+    width: 30px;
+    text-align: right;
+    font-size: 20px;
+    /* background-color: red; */
+}
+.pop{
+    text-align: right;
+}
+.print{
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    margin-left: 500px;
+    gap: 10px;
+}
+.hb80{
+    text-align: center;
+    font-size: 30px;
+}
+.hb62{
+    text-align: center;
+    font-size: 30px;
+    color: green;
+}
+.lb{
+    text-align: left !important;
+    margin-right: 50px !important;
+    font-size: 17px;
+}
+.bt100{
+    text-align: right !important;
+    margin-left: 800px !important;
+}
+.sp3{
+    display: inline-flex !important;
+}
+/* .sp50{
+    margin-top: 40px;
+} */
+.err{
+    text-align: right;
+    color: red;
+    display: block;
+    font-size: 18px;
+}
