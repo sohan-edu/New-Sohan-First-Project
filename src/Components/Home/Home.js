@@ -52,7 +52,7 @@ export default function Home() {
                     showModal={showModal}
                     className='bt5'
                   /> */}
-                  <Button onClick={openModal} className='bt5' ><Link to={"/formpage"}>Apply Now For FreeLink</Link></Button>
+                  <Button className='bt5' onClick={openModal}><a className='lin' href="/formpage">Apply Now For FreeLink</a></Button>
                   {
                     showModal ? (
                       <M_modal
@@ -202,7 +202,7 @@ export default function Home() {
         </div>
       </section>
       <section className='s3'>
-        {/* <Container> */}
+         <Container> 
         <div className='fetch1'>
           <Row xs={12} md={2} lg={5} className='ro'>
             {
@@ -224,7 +224,7 @@ export default function Home() {
 
           </Row>
         </div>
-        {/* </Container> */}
+        </Container> 
         <Container className='conti'>
           <Row>
 
@@ -260,7 +260,7 @@ export default function Home() {
               <h2 className='hb14'> of lives changed</h2>
             </li>
           </ul>
-          <p className='pb30'>Hear it from the ones who have been on this journey already</p>
+          {/* <p className='pb30'>Hear it from the ones who have been on this journey already</p> */}
         </div>
         <div className='caro'>
           <Carousel className='caros'>

@@ -55,9 +55,28 @@
     height: 450px;
     
 }
+a:visited.lin1{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: transparent;
+}
+a:link.lin1 {
+    color: rgb(255, 255, 255) !important;
+    text-decoration: none;
+    background-color: transparent;
+
+}
+a:active{
+    color: green !important;
+    text-decoration: none;
+    background-color: transparent;
+}
 .bt5{
-    background-color: green;
+    background-color: rgb(15, 73, 135) !important;
+    color: rgb(255, 255, 255) !important;
     border-radius: 5px;
+    text-decoration: none !important;
+    background-color: transparent;
 }
 .s2{
     height: 400px;
@@ -132,27 +151,28 @@
     width: 70%;
 } */
 .img30{
-    height: 70px;
-    width: 200px;
+    height: 50px;
+    width: 120px;
+    aspect-ratio: 4/2;
 }
 .fetch1{
     display: inline-block;
     position: relative;
-    margin: 20px;
-    grid-column-gap: 0px;
-    grid-row-gap: 40px;
+    /* margin: 3px; */
+    /* grid-column-gap: 0px; */
+    /* gap: 4px; */
   
 }
 .ro{
-    margin: 30px !important;
+    margin: 10px !important;
     justify-content: space-between;
-    grid-row-gap: 100px;
+    grid-row-gap: 50px;
 }
 .conti{
     margin-top: 40px;
-    background-color: green;
-    height: 200px;
-    width: 70% !important;
+    background-color: rgb(15, 73, 135);
+    height: 150px;
+    width: 60% !important;
 }
 .fq{
     margin-top: 40px;
@@ -171,8 +191,8 @@
     margin-left: 100px;
 }
 .bt22{
-    background-color: white !important;
-    color: green !important;
+    background-color: rgb(255, 255, 255) !important;
+    color:  rgb(15, 73, 135)!important;
     text-align: right !important;
 }
 .car{
@@ -193,7 +213,7 @@
     margin-right: 30px;
 }
 .hb13{
-    color: green;
+    color: rgb(255, 255, 255);
     font-size: 30px;
     font-weight: bold;
     text-align: center;
@@ -204,11 +224,11 @@
     text-align: center;
 }
 .s4{
-    background-color: darkcyan;
+    background-color: rgb(15, 73, 135);
     height: 800px;
 }
 .warper{
-    width: 70%;
+    width: 50%;
     margin: 30px auto;
     height: 400px;
     margin-top: 50px;
@@ -254,15 +274,15 @@
 .bt55{
     margin-top: 90px !important;
     text-align: center !important;
-    background-color: rgb(15, 73, 135) !important;
-    color: white !important;
+    background-color: rgb(255, 255, 255) !important;
+    color: rgb(15, 73, 135) !important;
     margin-left: 45%;
 }
 .caros{
     background-color: #e0ffff71 !important;
 }
 .caros2{
-    background-color: darkcyan !important;
+    background-color: rgb(15, 73, 135) !important;
 }
 .poster{
     text-align: center;
@@ -574,13 +594,20 @@
     gap: 10px;
     margin-left: 40%;
 }
+.fe2{
+    text-align: center;
+    margin-right: 20px;
+}
 .hb300{
     font-size: 30px;
-    color: #29b475;
+    color: rgb(15, 73, 135);
 }
 .hb301{
     font-size: 30px;
     
+}
+.hb302{
+    text-align: canter;
 }
 .bt250{
     text-align: center;

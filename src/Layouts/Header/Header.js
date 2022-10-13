@@ -87,7 +87,8 @@ export default function Header() {
             <div class="bt2">
             <div class="bt">
             <button class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root btn secondary small contained  css-j06rf4" tabindex="0" type="button">
-            <Link to={"/formpage"}>Register Now</Link>
+            <a className='lin' href="/formpage">Register Now</a>  
+            {/* <Link className='lin' style={{color: 'white'}} to={"/formpage"}>Register Now</Link> */}
               
               <span class="MuiTouchRipple-root css-w0pj6f"></span>
             </button>

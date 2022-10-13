@@ -226,13 +226,17 @@ a:active {
 .btn.contained.secondary {
     background-color: rgb(15, 73, 135) !important;
     color: rgb(255, 255, 255) !important;
+    
 }
 .btn.contained {
     border: none!important;
 }
-button:visited{
-    color: rgb(255, 255, 255);
+button:active{
+    color: rgb(255, 255, 255) !important;
     text-decoration: none;
+}
+a:visited.lin{
+    color: #fff !important;
 }
 button:visited.btn.small {
     padding: 10px 20px!important;
