@@ -42,7 +42,7 @@ export default function Home() {
                   <h2 className='hb2'>in tech</h2>
                 </div>
                 <div className='hub2'>
-                  <p className='p3'>Get trained for top tech jobs by</p><p4 className='hb4'>industry experts and pay rupee0 until</p4><p className='p5'>you land a job</p>
+                  <p className='p3'>Get trained for top tech jobs by</p><p4 className='hb4'>industry experts and pay rupee 0 until</p4><p className='p5'>you land a job</p>
 
                 </div>
                 {/* <Button className='bt5' ><Link to={"/formpage"}>Apply Now For FreeLink</Link></Button> */}
@@ -80,7 +80,7 @@ export default function Home() {
       </section>
       <section className='s2'>
         <div className='pls'>
-          <h2 className='hb6'>Our students are hired by 300+ companies</h2>
+          <h2 className='hb6'>Our students are hired by 20+ companies</h2>
 
           {/* <Container>
             <div className='pls2'>
@@ -155,7 +155,7 @@ export default function Home() {
 
                   <div class="jsx-9b2a1c4f5d5159d9 placement-stats-new-card green-bkg">
                     <div class="jsx-9b2a1c4f5d5159d9 d-flex justify-between">
-                      <div class="jsx-9b2a1c4f5d5159d9 card-title green">92% +</div>
+                      <div class="jsx-9b2a1c4f5d5159d9 card-title green">90% +</div>
                       <img src="https://images.geekster.in/we-have-delivered/placement-rate.svg" alt="" class="img100"></img>
                     </div>
                     <div class="jsx-9b2a1c4f5d5159d9 card-subtitle high">Placement rate</div>
@@ -170,7 +170,7 @@ export default function Home() {
 
                   <div class="jsx-9b2a1c4f5d5159d9 placement-stats-new-card orange-bkg">
                     <div class="jsx-9b2a1c4f5d5159d9 d-flex justify-between">
-                      <div class="jsx-9b2a1c4f5d5159d9 card-title orange">₹ 7.43 LPA</div>
+                      <div class="jsx-9b2a1c4f5d5159d9 card-title orange">₹ 5 LPA</div>
                       <img src="https://images.geekster.in/we-have-delivered/average-salary.svg" alt="" class="img100"></img>
                     </div>
                     <div class="jsx-9b2a1c4f5d5159d9 card-subtitle high">Average Salary</div>
@@ -185,7 +185,7 @@ export default function Home() {
 
                   <div class="jsx-9b2a1c4f5d5159d9 placement-stats-new-card blue-bkg">
                     <div class="jsx-9b2a1c4f5d5159d9 d-flex justify-between">
-                      <div class="jsx-9b2a1c4f5d5159d9 card-title blue">₹ 21 LPA</div>
+                      <div class="jsx-9b2a1c4f5d5159d9 card-title blue">₹ 36 LPA</div>
                       <img src="https://images.geekster.in/we-have-delivered/highest-salary.svg" alt="" class="img100"></img>
                     </div>
                     <div class="jsx-9b2a1c4f5d5159d9 card-subtitle high">Highest Salary Offered</div>
@@ -252,180 +252,7 @@ export default function Home() {
           </Row>
         </Container>
       </section>
-      <section className='s4'>
-        <div className='car'>
-          <ul>
-            <li className='list30'>
-              <h2 className='hb13'>Thousands</h2>
-              <h2 className='hb14'> of lives changed</h2>
-            </li>
-          </ul>
-          {/* <p className='pb30'>Hear it from the ones who have been on this journey already</p> */}
-        </div>
-        <div className='caro'>
-          <Carousel className='caros'>
-            <Carousel.Item className='caros2'>
-              <div className='warper'>
-                <div className='left'>
-                  <img src='../../../../Images/Karri-Devi.webp' className='img40' />
-                  <h2 className='hb20'>Karri Devi</h2>
-                  <img src='../../../../Images/publicis-sapient.webp' className='img42' />
-                </div>
-                <div className='right'>
-                  <p className='p50'>I did not know enough about coding before joining Geekster and had no job. All my friends had jobs by then. I joined Geekster and learned everything about full stack</p>
-                  <button className='bt31'>Read More</button>
-                </div>
-              </div>
 
-            </Carousel.Item>
-            <Carousel.Item className='caros2'>
-              <div className='warper'>
-                <div className='left'>
-                  <img src='../../../../Images/Pawan-Kumar.webp' className='img40' />
-                  <h2 className='hb20'>Pawan Kumar</h2>
-                  <img src='../../../../Images/Radiansys.webp' className='img42' />
-                </div>
-                <div className='right'>
-                  <p className='p50'>Geekster educators were very good. We used to make live projects and with the help of educators and mentors I was able to transition from Petroleum engineering to software</p>
-                  <button className='bt31'>Read More</button>
-                </div>
-              </div>
-
-
-            </Carousel.Item>
-            <Carousel.Item className='caros2'>
-              <div className='warper'>
-                <div className='left'>
-                  <img src='../../../../Images/Utkarsh-singh.webp' className='img40' />
-                  <h2 className='hb20'>Utkarsh Singh</h2>
-                  <img src='../../../../Images/Bluewud.webp' className='img42' />
-                </div>
-                <div className='right'>
-                  <p className='p50'>Geekster taught me in months what years of college work couldn't teach me. They honed my technical and non-technical skills, build my confidence and gave me a flavor of</p>
-                  <button className='bt31'>Read More</button>
-                </div>
-              </div>
-
-
-            </Carousel.Item>
-            <Carousel.Item className='caros2'>
-              <div className='warper'>
-                <div className='left'>
-                  <img src='../../../../Images/Saurabh-Garg.webp' className='img40' />
-                  <h2 className='hb20'>Saurabh Garg</h2>
-                  <img src='../../../../Images/publicis-sapient.webp' className='img42' />
-                </div>
-                <div className='right'>
-                  <p className='p50'>Geekster taught me in months what years of college work couldn't teach me. They honed my technical and non-technical skills, build my confidence and gave me a flavor of</p>
-                  <button className='bt31'>Read More</button>
-                </div>
-              </div>
-
-
-            </Carousel.Item>
-          </Carousel>
-        </div>
-        <Button className='bt55'>Read More Testimonials</Button>
-      </section>
-      <section className='s5'>
-        <div className='newcaro'>
-          <div className='poster'>
-            <h2 className='hb16'>Unlock your true potential with Geekster</h2>
-            <p className='p56'>Through our programs we ensure that you</p>
-
-          </div>
-          <Container>
-            <Row>
-              <Col xs={12} md={3} lg={6}>
-                <Carousel fade className='caros2'>
-                  <Carousel.Item className='caros4'>
-                    <div className='warper2'>
-                      <div className='left2'>
-                        <img src='../../../../Images/full.png' className='img44' />
-
-                      </div>
-
-                    </div>
-
-
-                  </Carousel.Item>
-                  <Carousel.Item className='caros4'>
-                    <div className='warper2'>
-                      <div className='left2'>
-                        <img src='../../../../Images/shail.png' className='img44' />
-
-                      </div>
-
-                    </div>
-
-
-                  </Carousel.Item>
-                  <Carousel.Item className='caros4'>
-                    <div className='warper2'>
-                      <div className='left2'>
-                        <img src='../../../../Images/new.png' className='img44' />
-
-                      </div>
-
-                    </div>
-
-
-                  </Carousel.Item>
-                  <Carousel.Item className='caros4'>
-                    <div className='warper2'>
-                      <div className='left2'>
-                        <img src='../../../../Images/student.png' className='img44' />
-
-                      </div>
-
-                    </div>
-
-
-                  </Carousel.Item>
-                  <Carousel.Item className='caros4'>
-                    <div className='warper2'>
-                      <div className='left2'>
-                        <img src='../../../../Images/refelal.png' className='img44' />
-
-                      </div>
-
-                    </div>
-
-
-                  </Carousel.Item>
-                </Carousel>
-
-              </Col>
-              <Col xs={12} md={3} lg={6}>
-                <div className='rb'>
-                  <div className='ri1'>
-
-                    <h3 className='hb18'>Learn the latest technical skills and best practices from Industry</h3>
-                    <h3 className='hb19'>experts</h3>
-                  </div>
-                  <div className='ri1'>
-                    <h3 className='hb18'>Receive expert guidance at every step of the way from top</h3>
-                    <h3 className='hb19'>mentors</h3>
-                  </div>
-                  <div className='ri1'>
-                    <h3 className='hb18'>
-                      Learn how to showcase your knowledge better with soft-skills</h3>
-                    <h3 className='hb19'>training</h3>
-                  </div>
-                  <div className='ri1'>
-                    <h3 className='hb18'>Become interview ready by applying your coding and interview</h3>
-                    <h3 className='hb19'>skills in mock interviews</h3>
-                  </div>
-                  <div className='ri1'>
-                    <h3 className='hb18'>Get referrals to top companies</h3>
-
-                  </div>
-                </div>
-              </Col>
-            </Row>
-          </Container>
-        </div>
-      </section>
       <section className='s6'>
 
         {/* <div class='p-3 our-courses-warper text-center sm-p-2'>
@@ -476,7 +303,7 @@ export default function Home() {
                 <h4 className='hb69'>Next batch starts on</h4>
               </Col>
               <Col xs={12} lg={4}>
-                <h4 className='hb63'>31st Oct</h4>
+                <h4 className='hb63'>15 Nov</h4>
               </Col>
               <Col xs={12} lg={4}>
                 <button className='bt200'>Know More</button>
@@ -492,12 +319,13 @@ export default function Home() {
           <h4 className='hb301'>through this journey</h4>
         </div>
         <div className='fetch2'>
+          
 
           <Row className='cr'>
             {
               Cardjson.Cardmap.map((prod) => {
                 return (
-                  <React.Fragment>
+                  // <React.Fragment>
 
                     <Col xs={12} md={2} lg={3} className='cr2'>
                       {/* <Card className='cards'> */}
@@ -519,14 +347,15 @@ export default function Home() {
                       {/* </Card> */}
                     </Col>
 
-                  </React.Fragment>
+                  // </React.Fragment>
                 )
               })
             }
 
 
           </Row>
-          <button className='bt250' >Get Started</button>
+         
+          <button className='bt250' >Start Learning</button>
 
         </div>
       </section>
@@ -536,17 +365,17 @@ export default function Home() {
         </div>
         <Container>
           <Row className='ro11'>
-            <Col xs={12} sm={1} md={2} lg={4}>
+            {/* <Col xs={12} sm={1} md={2} lg={4}>
               <img src='../../../../Images/seen-1.webp' className='img189' />
-            </Col>
+            </Col> */}
             <Col xs={12} sm={1} md={2} lg={4}>
               <img src='../../../../Images/seen-2.webp' className='img189' />
             </Col>
-            <Col xs={12} sm={1} md={2} lg={4}>
+            {/* <Col xs={12} sm={1} md={2} lg={4}>
               <img src='../../../../Images/seen-5.webp' className='img189' />
-            </Col>
+            </Col> */}
           </Row>
-          <Row className='ro12'>
+          {/* <Row className='ro12'>
             <Col xs={12} sm={1} md={2} lg={4}>
               <img src='../../../../Images/seen-9.webp' className='img190' />
             </Col>
@@ -556,7 +385,7 @@ export default function Home() {
             <Col xs={12} sm={1} md={2} lg={4} className='co9'>
               <img src='../../../../Images/seen-6.webp' className='img192' />
             </Col>
-          </Row>
+          </Row> */}
         </Container>
 
       </section>

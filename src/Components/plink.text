@@ -1,1 +1,179 @@
 https://github.com/sohan-patra/Sohan-First-Project.git
+new
+https://github.com/sohan-patra/Sohan-First-Project.git
+
+
+      <section className='s4'>
+        <div className='car'>
+          <ul>
+            <li className='list30'>
+              <h2 className='hb13'>Thousands</h2>
+              <h2 className='hb14'> of lives changed</h2>
+            </li>
+          </ul>
+          {/* <p className='pb30'>Hear it from the ones who have been on this journey already</p> */}
+        </div>
+        <div className='caro'>
+          <Carousel className='caros'>
+            <Carousel.Item className='caros2'>
+              <div className='warper'>
+                <div className='left'>
+                  <img src='../../../../Images/Karri-Devi.webp' className='img40' />
+                  <h2 className='hb20'>Karri Devi</h2>
+                  <img src='../../../../Images/publicis-sapient.webp' className='img42' />
+                </div>
+                <div className='right'>
+                  <p className='p50'>I did not know enough about coding before joining Geekster and had no job. All my friends had jobs by then. I joined Geekster and learned everything about full stack</p>
+                  <button className='bt31'>Read More</button>
+                </div>
+              </div>
+
+            </Carousel.Item>
+            <Carousel.Item className='caros2'>
+              <div className='warper'>
+                <div className='left'>
+                  <img src='../../../../Images/Pawan-Kumar.webp' className='img40' />
+                  <h2 className='hb20'>Pawan Kumar</h2>
+                  <img src='../../../../Images/Radiansys.webp' className='img42' />
+                </div>
+                <div className='right'>
+                  <p className='p50'>Geekster educators were very good. We used to make live projects and with the help of educators and mentors I was able to transition from Petroleum engineering to software</p>
+                  <button className='bt31'>Read More</button>
+                </div>
+              </div>
+
+
+            </Carousel.Item>
+            <Carousel.Item className='caros2'>
+              <div className='warper'>
+                <div className='left'>
+                  <img src='../../../../Images/Utkarsh-singh.webp' className='img40' />
+                  <h2 className='hb20'>Utkarsh Singh</h2>
+                  <img src='../../../../Images/Bluewud.webp' className='img42' />
+                </div>
+                <div className='right'>
+                  <p className='p50'>Geekster taught me in months what years of college work couldn't teach me. They honed my technical and non-technical skills, build my confidence and gave me a flavor of</p>
+                  <button className='bt31'>Read More</button>
+                </div>
+              </div>
+
+
+            </Carousel.Item>
+            <Carousel.Item className='caros2'>
+              <div className='warper'>
+                <div className='left'>
+                  <img src='../../../../Images/Saurabh-Garg.webp' className='img40' />
+                  <h2 className='hb20'>Saurabh Garg</h2>
+                  <img src='../../../../Images/publicis-sapient.webp' className='img42' />
+                </div>
+                <div className='right'>
+                  <p className='p50'>Geekster taught me in months what years of college work couldn't teach me. They honed my technical and non-technical skills, build my confidence and gave me a flavor of</p>
+                  <button className='bt31'>Read More</button>
+                </div>
+              </div>
+
+
+            </Carousel.Item>
+          </Carousel>
+        </div>
+        <Button className='bt55'>Read More Testimonials</Button>
+      </section>
+      <section className='s5'>
+        <div className='newcaro'>
+          <div className='poster'>
+            <h2 className='hb16'>Unlock your true potential with Geekster</h2>
+            <p className='p56'>Through our programs we ensure that you</p>
+
+          </div>
+          <Container>
+            <Row>
+              <Col xs={12} md={3} lg={6}>
+                <Carousel fade className='caros2'>
+                  <Carousel.Item className='caros4'>
+                    <div className='warper2'>
+                      <div className='left2'>
+                        <img src='../../../../Images/full.png' className='img44' />
+
+                      </div>
+
+                    </div>
+
+
+                  </Carousel.Item>
+                  <Carousel.Item className='caros4'>
+                    <div className='warper2'>
+                      <div className='left2'>
+                        <img src='../../../../Images/shail.png' className='img44' />
+
+                      </div>
+
+                    </div>
+
+
+                  </Carousel.Item>
+                  <Carousel.Item className='caros4'>
+                    <div className='warper2'>
+                      <div className='left2'>
+                        <img src='../../../../Images/new.png' className='img44' />
+
+                      </div>
+
+                    </div>
+
+
+                  </Carousel.Item>
+                  <Carousel.Item className='caros4'>
+                    <div className='warper2'>
+                      <div className='left2'>
+                        <img src='../../../../Images/student.png' className='img44' />
+
+                      </div>
+
+                    </div>
+
+
+                  </Carousel.Item>
+                  <Carousel.Item className='caros4'>
+                    <div className='warper2'>
+                      <div className='left2'>
+                        <img src='../../../../Images/refelal.png' className='img44' />
+
+                      </div>
+
+                    </div>
+
+
+                  </Carousel.Item>
+                </Carousel>
+
+              </Col>
+              <Col xs={12} md={3} lg={6}>
+                <div className='rb'>
+                  <div className='ri1'>
+
+                    <h3 className='hb18'>Learn the latest technical skills and best practices from Industry</h3>
+                    <h3 className='hb19'>experts</h3>
+                  </div>
+                  <div className='ri1'>
+                    <h3 className='hb18'>Receive expert guidance at every step of the way from top</h3>
+                    <h3 className='hb19'>mentors</h3>
+                  </div>
+                  <div className='ri1'>
+                    <h3 className='hb18'>
+                      Learn how to showcase your knowledge better with soft-skills</h3>
+                    <h3 className='hb19'>training</h3>
+                  </div>
+                  <div className='ri1'>
+                    <h3 className='hb18'>Become interview ready by applying your coding and interview</h3>
+                    <h3 className='hb19'>skills in mock interviews</h3>
+                  </div>
+                  <div className='ri1'>
+                    <h3 className='hb18'>Get referrals to top companies</h3>
+
+                  </div>
+                </div>
+              </Col>
+            </Row>
+          </Container>
+        </div>
+      </section>
