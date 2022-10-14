@@ -11,15 +11,15 @@ import { M_modal } from '../Form/M_modal'
 export default function Home() {
   const [showModal, setShowModal] = useState(false)
 
-  
+
   const openModal = () => {
     setShowModal(true)
   };
   const closeModal = () => {
     setShowModal(false)
   };
- 
- 
+
+
   const onKeyDown = (event) => {
     if (event.keyCode === 27) {
       closeModal();
@@ -56,15 +56,15 @@ export default function Home() {
                   {
                     showModal ? (
                       <M_modal
-                      // onSubmit={onSubmit}
-                      setShowModal={setShowModal}
-                      modalRef={(n) => (this.modal = n)}
-                      // buttonRef={(n) => (this.closeButton = n)}
-                      closeModal={closeModal}
-                      onKeyDown={onKeyDown}
-                      onClickOutside={onClickOutside}
+                        // onSubmit={onSubmit}
+                        setShowModal={setShowModal}
+                        modalRef={(n) => (this.modal = n)}
+                        // buttonRef={(n) => (this.closeButton = n)}
+                        closeModal={closeModal}
+                        onKeyDown={onKeyDown}
+                        onClickOutside={onClickOutside}
                       />
-                    ): null
+                    ) : null
                   }
                 </div>
 
@@ -80,7 +80,9 @@ export default function Home() {
       </section>
       <section className='s2'>
         <div className='pls'>
-          <h2 className='hb6'>Our students are hired by 20+ companies</h2>
+          <div className='pl'>
+            <h2 className='hb6'>Our students</h2><h2 className='ht'> are hired</h2><h2 className='hb6'> by 10+ companies</h2>
+          </div>
 
           {/* <Container>
             <div className='pls2'>
@@ -202,29 +204,29 @@ export default function Home() {
         </div>
       </section>
       <section className='s3'>
-         <Container> 
-        <div className='fetch1'>
-          <Row xs={12} md={2} lg={5} className='ro'>
-            {
-              Logojson.Homemap.map((prod) => {
-                return (
-                  <React.Fragment>
+        <Container>
+          <div className='fetch1'>
+            <Row xs={12} md={2} lg={5} className='ro'>
+              {
+                Logojson.Homemap.map((prod) => {
+                  return (
+                    <React.Fragment>
 
-                    <Col>
-                      <>
-                        <img className='img30' src={prod.logo_img} />
+                      <Col>
+                        <>
+                          <img className='img30' src={prod.logo_img} />
 
-                      </>
-                    </Col>
+                        </>
+                      </Col>
 
-                  </React.Fragment>
-                )
-              })
-            }
+                    </React.Fragment>
+                  )
+                })
+              }
 
-          </Row>
-        </div>
-        </Container> 
+            </Row>
+          </div>
+        </Container>
         <Container className='conti'>
           <Row>
 
@@ -242,7 +244,7 @@ export default function Home() {
 
             <Col xs={12} lg={6}>
               <div className='fq2'>
-                <Button className='bt22'>Get Started</Button>
+                <Button className='bt22'><a className='lin2' href="/formpage">Get Started</a></Button>
               </div>
             </Col>
 
@@ -276,17 +278,17 @@ export default function Home() {
           </div>
           <Container className='conti9'>
             <Row className='ro9'>
-              <Col xs={12} lg={12}>
-                <div className='con5'>
-                  <h4 className='hb55'>For Graduates & Final Year Students</h4>
-                  <h2 className='hb56'>Full Stack Web Development</h2>
-                  <h4 className='hb57'>Build in-demand tech skills and accelerate your</h4>
-                  <h4 className='hb57'>career with most aspirational tech jobs</h4>
-                </div>
+              <Col xs={12} lg={12} className='con5'>
+                {/* <div className='con5'> */}
+                <h4 className='hb55'>For Graduates & Final Year Students</h4>
+                <h2 className='hb56'>Full Stack Web Development</h2>
+                <h4 className='hb57'>Build in-demand tech skills and accelerate your career with most aspirational tech jobs</h4>
+                {/* <h4 className='hb57'></h4> */}
+                {/* </div> */}
               </Col>
 
 
-              <Col xs={12} lg={6}>
+              <Col xs={12} lg={6} className='in'>
                 <h4 className='hb58'>Salary Commitment</h4>
                 <h4 className='hb59'>INR 5-30 LPA</h4>
 
@@ -299,14 +301,14 @@ export default function Home() {
               </Col>
 
 
-              <Col xs={12} lg={4}>
+              <Col xs={12} lg={5} className='con9'>
                 <h4 className='hb69'>Next batch starts on</h4>
-              </Col>
-              <Col xs={12} lg={4}>
+                </Col>
+                 <Col xs={12} lg={3} className='con9'>
                 <h4 className='hb63'>15 Nov</h4>
               </Col>
-              <Col xs={12} lg={4}>
-                <button className='bt200'>Know More</button>
+              <Col xs={12} lg={4} className='con9'>
+                <button className='bt200'><a className='lin' href="/formpage">Know More</a></button>
               </Col>
             </Row>
           </Container>
@@ -319,7 +321,7 @@ export default function Home() {
           <h4 className='hb301'>through this journey</h4>
         </div>
         <div className='fetch2'>
-          
+
 
           <Row className='cr'>
             {
@@ -327,25 +329,25 @@ export default function Home() {
                 return (
                   // <React.Fragment>
 
-                    <Col xs={12} md={2} lg={3} className='cr2'>
-                      {/* <Card className='cards'> */}
-                      {/* <Card.Img variant="top" className='img20' src={prod.card_img} /> */}
-                      <img className='img70' src={prod.card_img} />
+                  <Col xs={12} md={2} lg={3} className='cr2'>
+                    {/* <Card className='cards'> */}
+                    {/* <Card.Img variant="top" className='img20' src={prod.card_img} /> */}
+                    <img className='img70' alt='round' src={prod.card_img} />
 
-                      <Card.Title><h5>{prod.card_title}</h5></Card.Title>
-                      {/* <h3>{prod.card_title}</h3> */}
-                      <img className='img90' src={prod.card_logo} />
+                    <Card.Title><h5 className='ht2'>{prod.card_title}</h5></Card.Title>
+                    {/* <h3>{prod.card_title}</h3> */}
+                    <img className='img90' src={prod.card_logo} />
 
 
-                      {/* <Card.Text>
+                    {/* <Card.Text>
                             <h3>Price :{prod1.price}</h3>
                             <p>{prod1.description}</p>
                           </Card.Text> */}
 
 
 
-                      {/* </Card> */}
-                    </Col>
+                    {/* </Card> */}
+                  </Col>
 
                   // </React.Fragment>
                 )
@@ -354,8 +356,8 @@ export default function Home() {
 
 
           </Row>
-         
-          <button className='bt250' >Start Learning</button>
+
+          <button className='bt250'><a className='lin' href="/formpage">Start Learning</a></button>
 
         </div>
       </section>

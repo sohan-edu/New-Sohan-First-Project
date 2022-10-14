@@ -13,10 +13,10 @@ export default function Footer() {
             <Col xs={12} lg={4}>
               <div className='foot1'>
                 <div className='img'>
-                  <img className='myfoot' src="../../../../Images/logo.svg" alt='logo' />
+                  <img className='myfoot' src="../../../../Images/edureify.svg" alt='logo' />
                 </div>
                 <div className='p1'>
-                  Geekstar Is on a mission to help people
+                  Edureify Is on a mission to help people
                   build great careers,We belive that quality education
                   should be accessible to everyone without financial or
                   geographical barriers-thus, We offer skill based

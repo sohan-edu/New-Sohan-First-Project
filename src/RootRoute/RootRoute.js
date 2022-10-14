@@ -14,6 +14,7 @@ import ISA from '../Components/ISA/ISA'
 import PNF from '../Components/PageNotFound/PNF'
 import Footer from '../Layouts/Footer/Footer'
 import Header from '../Layouts/Header/Header'
+import Whatsapp from '../Components/Whatsapp/Whatsapp'
 
 export default function RootRoute() {
   return (
@@ -54,6 +55,7 @@ export default function RootRoute() {
 
         </Routes>
         <Footer />
+        <Whatsapp/>
 
 
       </Router>

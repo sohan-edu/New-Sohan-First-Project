@@ -56,7 +56,7 @@ export default function Header() {
         <div class="jsx-b36e8fc7955e62bb header-container">
           <div class="jsx-b36e8fc7955e62bb p-1 d-flex header-inner max-width mo">
             <div class="jsx-2053da81e1574215 float-left mr-auto cursor-ptr dis">
-              <img className='mylogo' src="../../../../Images/logo.svg" alt='logo' class="jsx-2053da81e1574215 geekster-logo" />
+              <img className='mylogo' src="../../../../Images/edureify.svg" alt='logo' class="jsx-2053da81e1574215 geekster-logo" />
 
             </div>
             <div class="jsx-b36e8fc7955e62bb sm-hide mr-auto my">
@@ -65,14 +65,14 @@ export default function Header() {
                   <div class="jsx-301128d6458f1593 link active ac">
                     <a class="jsx-301128d6458f1593 menu__item" href="/" target="_blank">Home</a>
                   </div>
-                  <div class="jsx-301128d6458f1593 link">
+                  {/* <div class="jsx-301128d6458f1593 link">
                     <div class="css-1t62lt9">
                       <a class="jsx-301128d6458f1593 menu__item" href="/coursespage">Courses</a>
                     </div>
-                  </div>
-                  <div class="jsx-301128d6458f1593 link">
+                  </div> */}
+                  {/* <div class="jsx-301128d6458f1593 link">
                     <a class="jsx-301128d6458f1593 menu__item" href="/hiretalentpage">HireTalent</a>
-                  </div>
+                  </div> */}
                   <div class="jsx-301128d6458f1593 link">
                     <a class="jsx-301128d6458f1593 menu__item" href="/blogpage">Blog</a>
                   </div>
