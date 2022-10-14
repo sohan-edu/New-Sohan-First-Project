@@ -631,33 +631,83 @@ a:active {
 .write {
     gap: 10px;
 }
+.di{
+    display: inline-flex;
+    gap: 60px;
+}
+.di2{
+    display: inline-flex;
+    gap: 40px;
+}
+.ci{
+    border-radius: 20px !important;
+    border: #16252d 1px solid !important;
+    width: 400px !important;
+    height: 420px !important;
+    margin-left: 20px !important;
+}
 
-.conti9 {
+/* .conti9 {
     margin-top: 30px !important;
     height: 400px !important;
     width: 30% !important;
     border-radius: 0.5px !important;
     border: #16252d  0.4px solid !important;
     
-    /* border: #16252d lightblue !important; */
-}
+    border: #16252d lightblue !important;
+} */
 
 .ro9 {
     background-color: rgb(255, 255, 255);
     /* width: 45%; */
     height: 350px;
-    margin-top: 0px !important;
-    /* margin-left: 0px !important; */
+    margin-top: 50px !important;
+    margin-left: 2px !important;
+    gap: 200px !important;
     
+}
+/* .r11{
+    margin-top: 30px !important;
+} */
+.di3{
+    width: 400px;
+    border-radius: 20px;
+    /* padding-right: 40px; */
+    /* margin-top: 10px !important; */
+    background-color: hwb(193 84% 5% / 0.342);
+
+}
+.hb900{
+    font-size: 17px;
+    color: rgb(15, 73, 135);
+    font-weight: 500;
+    margin-top: 30px;
+
+
+}
+.fx{
+    margin-top: 30px !important;
+}
+.hb901{
+    font-size: 17px;
+    color: black;
+    font-weight: 500;
+    
+
+}
+.ch{
+    font-size: 17px !important;
 }
 
 .con5 {
-    background-color: hsla(352, 100%, 86%, 0.671) !important;
-    border-radius: 0.5px !important;
-    /* text-align: center !important; */
-    /* width: 100% !important; */
-    /* margin-left: 20px; */
-    padding-right: 20px !important;
+    background-color: hsla(352, 100%, 86%, 0.671);
+    border-radius: 20px ;
+    width: 400px;
+    /* margin-right: 400px !important;
+    margin-bottom: 40px;
+     */
+   
+    padding-right: 40px;
     
 
 }
@@ -666,6 +716,7 @@ a:active {
     /* background-color: #eaf6f9; */
     border-left: hwb(0 0% 100% / 0.13) 0.5px outset !important;
     margin-top: 30px !important;
+    padding-top: 40px;
     
 }
 .con9{

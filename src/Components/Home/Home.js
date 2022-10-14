@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Home.css'
-import { Row, Col, Button, Container, Carousel, Card, Modal } from 'react-bootstrap'
+import { Row, Col, Button, Container, Carousel, Card, Modal, Form } from 'react-bootstrap'
 import Logojson from './Homemap.json'
 import Cardjson from './Cardmap.json'
 import { Link } from 'react-router-dom'
@@ -278,37 +278,66 @@ export default function Home() {
           </div>
           <Container className='conti9'>
             <Row className='ro9'>
-              <Col xs={12} lg={12} className='con5'>
-                {/* <div className='con5'> */}
-                <h4 className='hb55'>For Graduates & Final Year Students</h4>
-                <h2 className='hb56'>Full Stack Web Development</h2>
-                <h4 className='hb57'>Build in-demand tech skills and accelerate your career with most aspirational tech jobs</h4>
-                {/* <h4 className='hb57'></h4> */}
-                {/* </div> */}
+              <Col xs={12} lg={6} className='ci'>
+                {/* <Container> */}
+                <Row>
+                  <div className='con5'>
+                    {/* <div className='con5'> */}
+                    <h4 className='hb55'>For Graduates & Final Year Students</h4>
+                    <h2 className='hb56'>Full Stack Web Development</h2>
+                    <h4 className='hb57'>Build in-demand tech skills and accelerate your career with most aspirational tech jobs</h4>
+                    {/* <h4 className='hb57'></h4> */}
+                    {/* </div> */}
+                  </div>
+
+
+                  <div className='di'>
+                    <div className='in'>
+                      <h4 className='hb58'>Salary Commitment</h4>
+                      <h4 className='hb59'>INR 5-30 LPA</h4>
+
+                    </div>
+                    <div className='con6'>
+                      <h4 className='hb60'>Eligibility</h4>
+                      <h4 className='hb61'>Basic</h4>
+                      <h4 className='hb61'>Programming</h4>
+                      <h4 className='hb61'>Skills</h4>
+                    </div>
+                  </div>
+
+
+                  <div className='di2'>
+                    <div className='con9'>
+                      <h4 className='hb69'>Next batch starts on</h4>
+                    </div>
+                    <div className='con9'>
+                      <h4 className='hb63'>15 Nov</h4>
+                    </div>
+                    <div className='con9'>
+                      <button className='bt200'><a className='lin' href="/formpage">Know More</a></button>
+                    </div>
+                  </div>
+                </Row>
+                {/* </Container> */}
               </Col>
+              <Col xs={12} lg={6} className='ci'>
+                <Row className='r11'>
+                  <div className='di3'>
+                    <h4 className='hb900'>Pay ₹ 0 Until you land a 5 LPA Job.</h4>
+                    <h4 className='hb901'>Edureify Job Ready Full Stack Software Development Online Live Course helps you to learn exactly what you need for a high-paying job.</h4>
 
+                  </div>
+                  <Form className='fx'>
+                    <Form.Group className="mb-3" controlId="formBasicCheckbox">
+                      <Form.Check className='ch' type="checkbox" label="Get Hired In Just 6 Months" />
+                      <Form.Check className='ch' type="checkbox" label="Live Online Training Course" /> 
+                      <Form.Check className='ch' type="checkbox" label="Learn From The Industry Expert"/>
+                      <Form.Check className='ch' type="checkbox" label="1 year of Dedicated Career Mentorship Support" />
+                      <Form.Check className='ch' type="checkbox" label="Full Stack Developer Certification" />
+                    </Form.Group>
+                  </Form>
 
-              <Col xs={12} lg={6} className='in'>
-                <h4 className='hb58'>Salary Commitment</h4>
-                <h4 className='hb59'>INR 5-30 LPA</h4>
-
-              </Col>
-              <Col xs={12} lg={6} className='con6'>
-                <h4 className='hb60'>Eligibility</h4>
-                <h4 className='hb61'>Basic</h4>
-                <h4 className='hb61'>Programming</h4>
-                <h4 className='hb61'>Skills</h4>
-              </Col>
-
-
-              <Col xs={12} lg={5} className='con9'>
-                <h4 className='hb69'>Next batch starts on</h4>
-                </Col>
-                 <Col xs={12} lg={3} className='con9'>
-                <h4 className='hb63'>15 Nov</h4>
-              </Col>
-              <Col xs={12} lg={4} className='con9'>
-                <button className='bt200'><a className='lin' href="/formpage">Know More</a></button>
+                </Row>
               </Col>
             </Row>
           </Container>
