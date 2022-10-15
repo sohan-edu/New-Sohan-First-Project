@@ -62,7 +62,7 @@ export default function Home() {
                             // onSubmit={onSubmit}
                             setShowModal={setShowModal}
                             modalRef={(n) => (this.modal = n)}
-                            // buttonRef={(n) => (this.closeButton = n)}
+                            buttonRef={(n) => (this.closeButton = n)}
                             closeModal={closeModal}
                             onKeyDown={onKeyDown}
                             onClickOutside={onClickOutside}
@@ -83,7 +83,7 @@ export default function Home() {
           </section>
          
             
-              <section  className='s2'>
+              <section  className='s2 tag'>
                 <div className='pls'>
                   <div className='pl'>
                     <h2 className='hb6'>Our students</h2><h2 className='ht'> are hired</h2><h2 className='hb6'> by 10+ companies</h2>
@@ -209,7 +209,7 @@ export default function Home() {
                 </div>
               </section>
            
-          <section className='s3'>
+          <section className='s3 tag'>
             <Container>
               <div className='fetch1'>
                 <Row xs={12} md={2} lg={5} className='ro'>
@@ -261,7 +261,7 @@ export default function Home() {
             </Container>
           </section>
 
-          <section className='s6'>
+          <section className='s6 tag'>
 
             {/* <div class='p-3 our-courses-warper text-center sm-p-2'>
             <div class='max-width'>
@@ -335,11 +335,12 @@ export default function Home() {
                       </div>
                       <Form className='fx'>
                         <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                          <Form.Check className='ch' type="checkbox" label="Get Hired In Just 6 Months" />
-                          <Form.Check className='ch' type="checkbox" label="Live Online Training Course" />
-                          <Form.Check className='ch' type="checkbox" label="Learn From The Industry Expert" />
-                          <Form.Check className='ch' type="checkbox" label="1 year of Dedicated Career Mentorship Support" />
-                          <Form.Check className='ch' type="checkbox" label="Full Stack Developer Certification" />
+                          <h4 className='ch'>✅Get Hired In Just 6 Months</h4>
+                          <h4 className='ch'>✅Live Online Training Course</h4>
+                          <h4 className='ch'>✅Learn From The Industry Expert</h4>
+                          <h4 className='ch'>✅1 year of Dedicated Career Mentorship Support</h4>
+                          <h4 className='ch'>✅Full Stack Developer Certification</h4>
+                         
                         </Form.Group>
                       </Form>
 
@@ -350,7 +351,7 @@ export default function Home() {
             </div>
 
           </section>
-          <section className='s7'>
+          <section className='s7 tag'>
             <div className='fe'>
               <h4 className='hb300'>Your mentors </h4>
               <h4 className='hb301'>through this journey</h4>
@@ -367,7 +368,7 @@ export default function Home() {
                       <Col xs={12} md={2} lg={3} className='cr2'>
                         {/* <Card className='cards'> */}
                         {/* <Card.Img variant="top" className='img20' src={prod.card_img} /> */}
-                        <img className='img70' alt='round' src={prod.card_img} />
+                        <img className='img70' alt='logo' src={prod.card_img} />
 
                         <Card.Title><h5 className='ht2'>{prod.card_title}</h5></Card.Title>
                         {/* <h3>{prod.card_title}</h3> */}
@@ -396,7 +397,7 @@ export default function Home() {
 
             </div>
           </section>
-          <section className='s8'>
+          <section className='s8 tag'>
             <div className='fe2'>
               <h2 className='hb302'>Featured in</h2>
             </div>

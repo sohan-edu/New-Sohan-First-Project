@@ -17,6 +17,12 @@ import Header from '../Layouts/Header/Header'
 import Whatsapp from '../Components/Whatsapp/Whatsapp'
 
 export default function RootRoute() {
+  const triggerText = 'Open form';
+  const onSubmit = (event) => {
+    event.preventDefault(event);
+    // console.log(event.target.name.value);
+    // console.log(event.target.email.value);
+  };
   return (
     <>
       <Router>
@@ -25,7 +31,7 @@ export default function RootRoute() {
 
 
         <Routes>
-          <Route path="" element={<Home />} />
+          <Route path="" element={<Home />} triggerText={triggerText} onSubmit={onSubmit} />
 
 
           <Route path="coursespage" element={<Courses />} />
