@@ -12,10 +12,28 @@
 
 .s6 {
     margin-top: 100px;
+    animation-name: example3;
+    animation-duration: 3s;
+    animation-delay: 2s;
 }
+
+
+@keyframes example3 {
+    from {margin-bottom: 20px;
+          }
+          to {margin-top: 0;}
+   }
 .s7{
     margin-top: 100px;
+    animation-name: example1;
+    animation-duration: 4s;
+    animation-delay: 4s;
 }
+@keyframes example1 {
+    from {margin-bottom: 20px;
+    }
+    to {margin-top: 0;}
+   }
 
 .hb3 {
     /* margin-right: 60px; */
@@ -119,16 +137,24 @@ a:active {
 .bt5 {
     background-color: rgb(15, 73, 135) !important;
     color: rgb(255, 255, 255) !important;
-    border-radius: 5px;
+    border-radius: 15px;
     text-decoration: none !important;
-    background-color: transparent;
+    background-color: black 1px solid !important;
 }
 
 .s2 {
     height: 400px;
     width: auto;
+    /* transition: margin 0.5s; */
+    animation-name: example;
+    animation-duration: 8s;
+    animation-delay: 8s;
 }
-
+@keyframes example {
+ from {margin-bottom: 10px;
+       }
+       to {margin-top: 0px;}
+}
 .pls {
     margin-top: 30px;
     margin-right: 50px;
@@ -143,7 +169,17 @@ a:active {
     grid-row-gap: 40px;
     grid-column-gap: 30px;
 }
+.s3{
+    animation-name: example2;
+    animation-duration: 4s;
+    animation-delay: 4s;
+}
 
+@keyframes example2 {
+    from {margin-bottom: 10px;
+          }
+          to {margin-top: 0px}
+   }
 .ro1 {
     row-gap: 10px !important;
     margin: 50px !important;
